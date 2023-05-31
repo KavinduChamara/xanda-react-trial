@@ -1,0 +1,123 @@
+.basket-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 12px;
+}
+
+.basket-item-img {
+    height: 50px;
+}
+
+.basket-item-img-div {
+    width: 20%;
+}
+
+.basket-item-desc {
+    width: 60%;
+    text-align: left;
+    font-size: 0.7em;
+}
+
+.remove-button {
+    background: transparent;
+    border: none;
+}
+
+.remove-button-icon {
+    background: transparent;
+    height: 15px;
+}
+
+.remove-button-div {
+    width: 20%;
+}
+
+.basket-title {
+    font-size: 1.7em;
+    text-align: left;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.disabled-button {
+    width: 220px;
+    font-size: 0.6em;
+    background: #010000b4;
+    color: #ffff;
+    font-weight: 600;
+    border-radius: 12px;
+    height: 20px;
+    border: none;
+    padding: 5px 0 5px 0;
+    pointer-events: none;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.cart-button {
+    width: 220px;
+    font-size: 0.6em;
+    background: #010000;
+    color: #ffff;
+    font-weight: 600;
+    border-radius: 12px;
+    height: 20px;
+    border: none;
+    padding: 5px 0 5px 0;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.no-items-title {
+    margin: auto;
+    color: #4a4a4a;
+}
+
+.total-div {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    font-size: 0.8em;
+}
+
+.total-label {
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+.total-val {
+    color: #010000;
+    font-weight: 600;
+}
+
+.coins-icon {
+    height: 10px;
+    margin-right: 2px;
+}
+
+.cart-item-price {
+    font-weight: 600;
+}
+
+.basket-item-name {
+    font-weight: 600;
+}
+
+.hr-line {
+    color: black;
+    width: 80%;
+    border-top: none;
+    border-color: black;
+}
+
+.basket-list {
+    height: 70%;
+}

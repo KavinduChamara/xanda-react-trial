@@ -1,0 +1,51 @@
+.checkout-main-div {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.cover-div {
+    height: 20vh;
+}
+
+.checkout-details {
+    background: #4ad87f;
+    min-height: 70vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+.back-button {
+    width: 120px;
+    font-size: 0.6em;
+    background: #010000;
+    color: #ffff;
+    font-weight: 600;
+    border-radius: 12px;
+    height: 20px;
+    border: none;
+    padding: 5px 0 5px 0;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.checkout-box {
+    text-align: left;
+}
+
+.checkout-total-div {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    font-size: 0.8em;
+}
+
+.checkout-total-label {
+    color: #4a4a4a;
+    font-weight: 600;
+    margin-right: 30px;
+}

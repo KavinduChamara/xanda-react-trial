@@ -1,0 +1,119 @@
+$secondary-color: #4a4a4a;
+$primary-color: #010000;
+
+.main-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.basket {
+    background: #4ad87f;
+    min-height: 97vh;
+    min-height: 97vh;
+    width: 275px;
+}
+
+.store {
+    max-height: 80vh;
+}
+
+.cover {
+    height: 40vh;
+    padding-left: 8%;
+}
+
+.items-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    bottom: 145px;
+    max-height: 75vh;
+}
+
+.tile {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 37%;
+    background: #4ad87f;
+    margin-bottom: 20px;
+    margin: 20px;
+    height: 175px;
+}
+
+.disabled-tile {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 37%;
+    background: #81e3a6;
+    margin-bottom: 20px;
+    margin: 20px;
+    height: 175px;
+    filter: blur(1px);
+    pointer-events: none;
+}
+
+.image {
+    height: 135px;
+    width: 118px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.image-div {
+    text-align: left;
+    width: 125px;
+    padding: 20px;
+}
+
+.tile-desc {
+    width: 60%;
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../assets/controller.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.tile-title {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #010000;
+}
+
+.tile-description {
+    font-size: 0.7rem;
+    line-height: normal;
+    color: $secondary-color;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.button {
+    margin-top: auto;
+}
+
+.basket-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: inherit;
+}
+
+.coins-icon {
+    height: 10px;
+    margin-right: 2px;
+}
+
+.tile-item-price {
+    font-weight: 600;
+    font-size: 0.6em;
+}
